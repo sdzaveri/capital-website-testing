@@ -1,0 +1,24 @@
+---
+title: Link
+description: Links are used to navigate to a different page of the application or outside the application.
+tab: code
+componentFolder: link
+---
+
+import { ExampleLinkStandard, ExampleLinkQuiet, ExampleLinkProminent } from "../../../../src/components/Examples/Link";
+
+## Import
+`import { Link } from '@opengov/component-library/capital';`
+
+## Examples
+<ExampleLinkStandard />
+<ExampleLinkQuiet />
+<ExampleLinkProminent />
+
+## Props
+
+| Prop Name   | Type       | Default     | Required? | Description |
+| ----------- | ---------- | ----------- | --------- | -----------
+| `dataTest`  | `string`   | `""`        | No        | Value for the `data-test` attribute.
+| `href`      | `string`   | `""`        | Yes       | The URL the link will navigate to.
+| `text`      | `string`   | `""`        | Yes       | The text content of the link.

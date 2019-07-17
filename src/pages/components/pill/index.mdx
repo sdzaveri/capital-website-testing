@@ -1,0 +1,27 @@
+---
+title: Pill
+description: Links are used to navigate to a different page of the application or outside the application.
+tab: code
+componentFolder: pill
+---
+
+import { ExamplePill, ExamplePillIcon } from "../../../../src/components/Examples/Pill";
+
+## Import
+`import { Pill } from '@opengov/component-library/capital';`
+
+## Examples
+<ExamplePill />
+<ExamplePillIcon />
+
+## Props
+
+_None_
+
+| Prop Name       | Type                    | Default     | Required? | Description |
+| --------------- | ----------------------- | ----------- | --------- | ----------- |
+| `text`          |	`string`                | `undefined` |	Yes	      | Text displayed in pill |
+| `icon`          |	`keyof typeof IconSVGs` | `undefined` |	No	      | Determines icon displayed, see possible values at **link to icon page** |
+| `iconAriaLabel` | `string`                | `undefined`	| No        | Icon label to be read by screenreader |
+| `onClick`	      | `function`              | `undefined` |	No	      | Function run when user hit main button |
+| `onRemove`      |	`function`              | `undefined` | No        | Function run when user hits remove buttons |

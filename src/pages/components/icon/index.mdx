@@ -1,0 +1,30 @@
+---
+title: Icon
+description: Links are used to navigate to a different page of the application or outside the application.
+tab: code
+componentFolder: icon
+---
+
+import { ExampleIcon, ExampleIconHidden, ExampleIconLabelledBy } from "../../../../src/components/Examples/Icon";
+
+## Import
+`import { Icon } from '@opengov/component-library/capital';`
+
+## Examples
+<ExampleIcon />
+<ExampleIconHidden />
+<ExampleIconLabelledBy />
+
+## Available Icons
+
+List all icons
+
+## Props
+
+| Prop Name       | Type                    | Default     | Required? | Description |
+| --------------- | ----------------------- | ----------- | --------- | ----------- |
+| `icon`          |	`keyof typeof IconSVGs` | `undefined` |	Yes	      | Determines icon displayed, see possible values above |
+| `className`	    | `string`                | `undefined` |	No	      | Adds a class to icon |
+| `ariaHidden`    |	`boolean`               | `False`	    | No        | Determines if icon is hidden to screenreader |
+| `ariaLabel`	    | `string`                | `undefined`	| No        | Label to be read by screenreader |
+| `ariaLabelledby`|	`string`                | `undefined`	| No        | DOM ID of object that labels icon |

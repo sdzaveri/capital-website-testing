@@ -1,0 +1,29 @@
+---
+title: Button
+description: Buttons are used to initiate an action or open a new page.
+tab: code
+componentFolder: button
+---
+
+import { ExampleButtonPrimary, ExampleButtonNeutral, ExampleButtonNaked, ExampleButtonDestructive, ExampleButtonSmall, ExampleButtonLarge } from "../../../../src/components/Examples/Button";
+
+## Import
+`import { Button } from '@opengov/component-library/capital';`
+
+## Examples
+<ExampleButtonPrimary />
+<ExampleButtonNeutral />
+<ExampleButtonNaked />
+<ExampleButtonDestructive />
+<ExampleButtonSmall />
+<ExampleButtonLarge />
+
+## Props
+
+| Prop Name   | Type       | Default     | Required? | Description |
+| ----------- | ---------- | ----------- | --------- | -----------
+| `dataTest`  | `string`   | `""`        | No        | Value for the `data-test` attribute.
+| `disabled`  | `boolean`  | `false`     | No        | Whether the button should be disabled or not.
+| `loading`   | `boolean`  | `false`     | No        | Whether the button is in a loading state or not. When on a loading state, the button cannot be pressed and its text is replaced by a loading animation.
+| `onClick`   | `function` | `undefined` | No        | Callback for when the button is clicked by the user. If the button is disabled, the callback will not called.
+| `children`  | `string`   | `""`        | No        | The text to display within the button describing the action to be performed when clicked.

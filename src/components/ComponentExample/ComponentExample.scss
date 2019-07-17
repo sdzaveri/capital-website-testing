@@ -1,0 +1,26 @@
+@import '~@opengov/capital-style/scss/tokens';
+
+.exampleContainer {
+  background-color: $color-white;
+  margin-bottom: $unit-5;
+}
+
+.exampleTitle {
+  font-family: 'Roboto Sans', monospace;
+  font-size: $font-size-small;
+  background-color: $color-gray-100;
+  padding: $unit-2;
+  border-bottom: 3px solid $color-gray-300;
+}
+
+.example {
+  padding: $unit-3 $unit-2;
+  background-size: 8px 8px;
+  background-image: linear-gradient(to right, $color-gray-50 1px, transparent 1px), linear-gradient(to bottom, $color-gray-50 1px, transparent 1px);
+}
+
+.exampleCode {
+  pre {
+    margin-top: 0 !important;
+  }
+}

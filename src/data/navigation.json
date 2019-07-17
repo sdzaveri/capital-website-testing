@@ -1,0 +1,263 @@
+{
+  "overview": [
+    {
+      "title": "Getting started",
+      "links": [
+        {
+          "title": "Overview",
+          "url": "/overview/getting-started"
+        },
+        {
+          "title": "Designers",
+          "url": "/overview/designers"
+        },
+        {
+          "title": "Developers",
+          "url": "/overview/developers"
+        }
+      ]
+    },
+    {
+      "title": "Contributing",
+      "links": [
+        {
+          "title": "Overview",
+          "url": "/contributing/overview"
+        },
+        {
+          "title": "Designers",
+          "url": "/contributing/designers"
+        },
+        {
+          "title": "Developers",
+          "url": "/contributing/developers"
+        }
+      ]
+    }
+  ],
+  "design": [
+    {
+      "title": "Contributing",
+      "links": [
+        {
+          "title": "Overview",
+          "url": "/overview/designers"
+        },
+        {
+          "title": "Designers",
+          "url": "/overview/designers"
+        },
+        {
+          "title": "Developers",
+          "url": "/overview/designers"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "title": "Tools",
+      "links": [
+        {
+          "title": "Tokens",
+          "url": "/components/tools/tokens/"
+        },
+        {
+          "title": "Mixins",
+          "url": "/components/tools/mixins/"
+        },
+        {
+          "title": "Functions",
+          "url": "/components/tools/functions/"
+        }
+      ]
+    },
+    {
+      "title": "Foundations",
+      "links": [
+        {
+          "title": "Badge",
+          "url": "/components/badge/"
+        },
+        {
+          "title": "Button",
+          "url": "/components/button/"
+        },
+        {
+          "title": "Button Group",
+          "url": "/components/buttongroup/"
+        },
+        {
+          "title": "Button Toggle",
+          "url": "/components/buttontoggle/"
+        },
+        {
+          "title": "Divider",
+          "url": "/components/divider/"
+        },
+        {
+          "title": "Icon",
+          "url": "/components/icon/"
+        },
+        {
+          "title": "Link",
+          "url": "/components/link/"
+        },
+        {
+          "title": "Loading Indicator",
+          "url": "/components/loading/"
+        },
+        {
+          "title": "Pill",
+          "url": "/components/pill/"
+        },
+        {
+          "title": "Shadow Scroll",
+          "url": "/components/shadowscroll/"
+        },
+        {
+          "title": "Text",
+          "url": "/components/text/"
+        }
+      ]
+    },
+    {
+      "title": "Lists",
+      "links": [
+        {
+          "title": "Block List",
+          "url": "/components/blocklist/"
+        },
+        {
+          "title": "Object List",
+          "url": "/components/objectlist/"
+        },
+        {
+          "title": "Wizard",
+          "url": "/components/wizardlist/"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "links": [
+        {
+          "title": "Breadcrumb",
+          "url": "/components/breadcrumb/"
+        },
+        {
+          "title": "Tabs",
+          "url": "/components/tabs/"
+        }
+      ]
+    },
+    {
+      "title": "Visualizations",
+      "links": [
+        {
+          "title": "Line Chart",
+          "url": "/components/linechart/"
+        },
+        {
+          "title": "Legend",
+          "url": "/components/legend/"
+        },
+        {
+          "title": "Stacked Bar Chart",
+          "url": "/components/stackedbarchart/"
+        },
+        {
+          "title": "Tooltip",
+          "url": "/components/tooltip/"
+        },
+        {
+          "title": "X-Axis",
+          "url": "/components/xaxis/"
+        },
+        {
+          "title": "Y-Axis",
+          "url": "/components/yaxis/"
+        }
+      ]
+    },
+    {
+      "title": "Form Elements",
+      "links": [
+        {
+          "title": "Character Counter",
+          "url": "/components/charactercounter/"
+        },
+        {
+          "title": "Checkbox",
+          "url": "/components/checkbox/"
+        },
+        {
+          "title": "Form Item",
+          "url": "/components/formitem/"
+        },
+        {
+          "title": "Input",
+          "url": "/components/input/"
+        },
+        {
+          "title": "Label",
+          "url": "/components/label/"
+        },
+        {
+          "title": "Radio Button",
+          "url": "/components/radiobutton/"
+        },
+        {
+          "title": "Radio Group",
+          "url": "/components/radiogroup/"
+        },
+        {
+          "title": "Select",
+          "url": "/components/select"
+        },
+        {
+          "title": "Switch",
+          "url": "/components/switch/"
+        },
+        {
+          "title": "Textarea",
+          "url": "/components/textarea/"
+        }
+      ]
+    },
+    {
+      "title": "Containers",
+      "links": [
+        {
+          "title": "Accordion Wizard",
+          "url": "/components/accordionwizard/"
+        },
+        {
+          "title": "Card",
+          "url": "/components/card/"
+        },
+        {
+          "title": "Dialog",
+          "url": "/components/dialog/"
+        },
+        {
+          "title": "Modal",
+          "url": "/components/modal/"
+        }
+      ]
+    },
+    {
+      "title": "Tables",
+      "links": [
+        {
+          "title": "Fixed Table",
+          "url": "/components/fixedtable/"
+        },
+        {
+          "title": "Table",
+          "url": "/components/table/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "rootDirs": ["./"],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2016", "dom"],
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "jsx": "react",
+    "pretty": true,
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "**/*-test.tsx", "**/*-test.ts", "testUtils"],
+  "include": ["**/*.ts", "**/*.tsx"]
+}

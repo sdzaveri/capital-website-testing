@@ -1,0 +1,111 @@
+@import '~@opengov/capital-style/scss/tokens';
+
+.bodyWrapper {
+  display: grid;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: $unit-8 1fr auto;
+  grid-template-columns: $unit-30 1fr;
+
+  grid-template-areas:
+      "head head"
+      "nav main"
+      "nav foot";
+}
+
+main {
+  width: calc(100vw - #{$unit-30});
+  grid-area: main;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $font-size-xxlarge;
+  font-weight: $font-weight-book;
+  display: block;
+  padding: $unit-8;
+  background-color: $color-gray-100;
+  margin-bottom: 0;
+  max-width: none;
+
+  small {
+    display: block;
+    margin-top: $unit-3;
+    font-size: $font-size-large;
+    color: $color-gray-700;
+  }
+}
+
+h1.sectionTitle {
+  background-color: $color-primary-dark;
+  color: white;
+  padding: $unit-20 $unit-8 $unit-10;
+}
+
+h1.homeTitle {
+  background-color: $color-primary-dark;
+  background-image: url('../../images/arrow-pattern.png');
+  background-size: contain;
+  color: white;
+  font-size: 4rem;
+  font-weight: $font-weight-light;
+  padding: $unit-30 $unit-8 $unit-8;
+
+  small {
+    max-width: 600px;
+    padding-top: $unit-3;
+    display: block;
+    color: rgba(255, 255, 255, .7);
+  }
+}
+
+.content {
+  padding: $unit-4 $unit-8;
+}
+
+.tabs {
+  display: flex;
+  padding: 0;
+  margin: ($unit-4 * -1) 0 0;
+  list-style-type: none;
+  background-color: $color-gray-100;
+  padding: 0 $unit-7;
+
+  li {
+    margin-right: $unit-2;
+
+    a {
+      color: $color-gray-1000;
+      text-decoration: none;
+      padding: $unit-2;
+      border-radius: $border-radius-default $border-radius-default 0 0;
+      border-bottom: 3px solid transparent;
+      color: $color-gray-700;
+      display: inline-block;
+      transition: $transition-natural;
+
+      &:hover {
+        border-bottom: 3px solid $color-gray-300;
+        color: $color-gray-1000;
+      }
+
+      &.tabsActive {
+        border-bottom: 3px solid $color-primary-selection;
+        color: $color-gray-1000;
+      }
+    }
+  }
+}
+
+.homeGrid {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: $unit-half;
+}
+
+.homeButton {
+  background-color: $color-gray-100;
+  padding: $unit-2;
+}
